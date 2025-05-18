@@ -24,19 +24,18 @@ Proyek ini adalah implementasi chatbot berbasis suara yang memungkinkan interaks
 voice_chatbot_project/
 │
 ├── app/
-│ ├── main.py # Routing utama dengan FastAPI
-│ ├── llm.py # Fungsi integrasi dengan Gemini API
-│ ├── stt.py # Modul transkripsi menggunakan Whisper
-│ ├── tts.py # Modul untuk Coqui TTS
-│ ├── whisper.cpp/ # Direktori hasil clone whisper.cpp
-│ └── coqui_utils/ # Konfigurasi & model Coqui
+│   ├── main.py            # Endpoint utama FastAPI
+│   ├── llm.py             # Integrasi Gemini API
+│   ├── stt.py             # Transkripsi suara (whisper.cpp)
+│   ├── tts.py             # TTS dengan Coqui
+│   └── whisper.cpp/       # Hasil clone whisper.cpp
+│   └── coqui_utils/       # Model dan config Coqui TTS
 │
 ├── gradio_app/
-│ └── app.py # UI Gradio berbasis web
+│   └── app.py             # Frontend dengan Gradio
 │
-├── .env # File konfigurasi API Key Gemini
-├── requirements.txt # Daftar dependensi yang dibutuhkan
-
+├── .env                   # Menyimpan Gemini API Key
+├── requirements.txt       # Daftar dependensi Python
 ---
 
 ## ⚙️ Teknologi dan Rekomendasi
