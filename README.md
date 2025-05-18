@@ -32,10 +32,10 @@ voice_chatbot_project/
 │   └── coqui_utils/       - Model dan config Coqui TTS
 │
 ├── gradio_app/
-│   └── app.py             # Frontend dengan Gradio
+│   └── app.py             - Frontend dengan Gradio
 │
-├── .env                   # Menyimpan Gemini API Key
-├── requirements.txt       # Daftar dependensi Python
+├── .env                   - Menyimpan Gemini API Key
+├── requirements.txt       - Daftar dependensi Python
 ---
 
 ## ⚙️ Teknologi dan Rekomendasi
