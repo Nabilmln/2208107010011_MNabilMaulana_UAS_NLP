@@ -50,30 +50,6 @@
   {
     "role": "user",
     "parts": [
-      "Siapa Presiden Indonesia ketiga?"
-    ]
-  },
-  {
-    "role": "model",
-    "parts": [
-      "Presiden Indonesia ketiga adalah B.J. Habibie.\n"
-    ]
-  },
-  {
-    "role": "user",
-    "parts": [
-      "Siapa itu Megawati?"
-    ]
-  },
-  {
-    "role": "model",
-    "parts": [
-      "Megawati Soekarnoputri adalah Presiden Indonesia kelima. Beliau juga merupakan putri dari presiden pertama Indonesia, Soekarno.\n"
-    ]
-  },
-  {
-    "role": "user",
-    "parts": [
       "Apakah kamu tahu siapa presiden Indonesia keempat?"
     ]
   },
